@@ -21,4 +21,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Run
-      run: dotnet run --project "FileTransfer.Console/FileTransfer.Console.csproj"
+      run: cd "FileTransfer.Console" && dotnet run
