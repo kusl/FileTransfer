@@ -67,7 +67,6 @@ namespace FileTransfer.Xunit
             List<ChangeDetectionToken> actual = ChangeDetectionAction.TokenizeString(input);
 
             // Assert
-
             Assert.Contains(actual, x => x.Key == key1);
             Assert.Equal(actual.First(x => x.Key == key1).OldValue, oldValue1);
             Assert.Equal(actual.First(x => x.Key == key1).NewValue, newValue1);
