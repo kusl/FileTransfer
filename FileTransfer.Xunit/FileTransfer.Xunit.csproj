@@ -24,6 +24,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FileTransfer.Console\FileTransfer.Console.csproj" />
     <ProjectReference Include="..\FileTransfer.Persistence\FileTransfer.Persistence.csproj" />
+    <ProjectReference Include="..\FileTransfer.StringManipulation\FileTransfer.StringManipulation.csproj" />
   </ItemGroup>
 
 </Project>
