@@ -14,6 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 	ProjectSection(SolutionItems) = preProject
 		BuildFileTransfer.yml = BuildFileTransfer.yml
 		.github\workflows\RunFileTransfer.yml = .github\workflows\RunFileTransfer.yml
+		SonarFileTransfer.yml = SonarFileTransfer.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BEA923B7-F7DE-4310-8AE3-462D20214918}"
@@ -31,7 +32,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileTransfer.Xunit", "FileT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileTransfer.Persistence", "FileTransfer.Persistence\FileTransfer.Persistence.csproj", "{4300D569-1918-439B-9766-BB31B8A80F24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransfer.StringManipulation", "FileTransfer.StringManipulation\FileTransfer.StringManipulation.csproj", "{5139ED80-8803-410F-BA0D-2B23E36A7CDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileTransfer.StringManipulation", "FileTransfer.StringManipulation\FileTransfer.StringManipulation.csproj", "{5139ED80-8803-410F-BA0D-2B23E36A7CDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
