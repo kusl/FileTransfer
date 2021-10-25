@@ -1,4 +1,6 @@
 ﻿using FileTransfer.StringManipulation;
+using System.Collections.Generic;
+using System.Linq;
 using Xunit;
 namespace FileTransfer.Xunit
 {

@@ -5,13 +5,13 @@ using Moq;
 using Xunit;
 
 namespace FileTransfer.Xunit;
-public class DataServiceTests : IDisposable
+public class DataServiceTests : System.IDisposable
 {
     DataService service;
     public DataServiceTests()
     {
         var log = Mock.Of<ILogger<DataService>>();
-        var inMemorySettings = new Dictionary<string, string> {
+        var inMemorySettings = new System.Collections.Generic.Dictionary<string, string> {
             {"TopLevelKey", "TopLevelValue"},
             {"ConnectionStrings:DefaultConnection", "DataSource:app.db;Cache=Shared"},
         };

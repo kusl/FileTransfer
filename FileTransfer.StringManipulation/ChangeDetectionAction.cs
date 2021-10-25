@@ -3,9 +3,9 @@
     public class ChangeDetectionAction
     {
         // input string: "item name 1~old value 1~new value 1|item name 2~old value 2~new value 2"
-        public static List<ChangeDetectionToken> TokenizeString(string input)
+        public static System.Collections.Generic.List<ChangeDetectionToken> TokenizeString(string input)
         {
-            List<ChangeDetectionToken> tokens = new();
+            System.Collections.Generic.List<ChangeDetectionToken> tokens = new();
             if (string.IsNullOrWhiteSpace(input))
                 return tokens;
 

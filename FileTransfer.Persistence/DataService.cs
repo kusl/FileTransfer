@@ -2,7 +2,7 @@
 
 namespace FileTransfer.Persistence
 {
-    public class DataService: IDataService, IDisposable
+    public class DataService: IDataService, System.IDisposable
     {
         private readonly ILogger<DataService> _log;
         private readonly string _connectionString;
