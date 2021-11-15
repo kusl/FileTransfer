@@ -34,6 +34,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileTransfer.Persistence", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileTransfer.StringManipulation", "FileTransfer.StringManipulation\FileTransfer.StringManipulation.csproj", "{5139ED80-8803-410F-BA0D-2B23E36A7CDE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileTransfer.WebApi", "FileTransfer.WebApi\FileTransfer.WebApi.csproj", "{B4BB1A5B-4D9C-49C5-AE82-A9834B853089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransfer.WebApi1", "FileTransfer.WebApi1\FileTransfer.WebApi1.csproj", "{6605310E-C16F-44CB-9D86-C759645B535E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +60,14 @@ Global
 		{5139ED80-8803-410F-BA0D-2B23E36A7CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5139ED80-8803-410F-BA0D-2B23E36A7CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5139ED80-8803-410F-BA0D-2B23E36A7CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BB1A5B-4D9C-49C5-AE82-A9834B853089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BB1A5B-4D9C-49C5-AE82-A9834B853089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BB1A5B-4D9C-49C5-AE82-A9834B853089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BB1A5B-4D9C-49C5-AE82-A9834B853089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6605310E-C16F-44CB-9D86-C759645B535E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6605310E-C16F-44CB-9D86-C759645B535E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6605310E-C16F-44CB-9D86-C759645B535E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6605310E-C16F-44CB-9D86-C759645B535E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
